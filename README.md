@@ -102,17 +102,6 @@ Open `http://localhost:3000`.
 6. Configure the ElevenLabs and Razorpay webhook URLs with the deployed HTTPS URL.
 7. Run one browser voice session and one Razorpay test transaction before recording the demonstration.
 
-## Workflow demonstration 
-
-1. Show the outstanding amount and 10 fictional scenarios.
-2. Select Rahul Mehta and click **Start browser voice session**.
-3. Grant microphone access and speak directly with the ElevenLabs agent.
-4. Confirm identity, explain that funds are now available, and request a secure link.
-5. End the session and show the synchronized transcript and outcome.
-6. Open the secure payment page and complete a Razorpay test payment.
-7. Return to the dashboard and show the case counted as recovered only after confirmation.
-8. Briefly shows wrong-person, dispute, cancellation, callback, and opt-out scenarios in the dataset.
-
 ## Safety and compliance guardrails
 
 - The agent identifies itself as automated.
