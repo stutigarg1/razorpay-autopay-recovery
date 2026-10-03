@@ -62,8 +62,19 @@ async function enableBrowserAuthentication(baseUrl, apiKey, agentId) {
     body: JSON.stringify({
       platform_settings: {
         auth: { enable_auth: true },
+        overrides: {
+          conversation_config_override: {
+            tts: { speed: true },
+            agent: {
+              first_message: true,
+              language: true,
+              prompt: { prompt: true },
+            },
+          },
+        },
       },
-      version_description: "Enable signed browser voice sessions",
+      version_description:
+        "Enable signed browser sessions and customer-specific recovery context",
     }),
   });
 
